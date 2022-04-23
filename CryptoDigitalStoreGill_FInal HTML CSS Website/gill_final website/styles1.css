@@ -1,0 +1,91 @@
+main {background-color: rgba(217, 225, 228, 0.452);}
+
+h1 { padding-left: 50px;
+    float: right;
+}
+.logo {
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+/* footer CSS */
+#footer {
+  display: flex;
+  border: 1px rgb(154, 205, 247) solid;
+  padding: 5px;
+}    
+.banner {
+  width: 100%;
+  height: 100px;
+  display: block;
+  background-color: rgb(0, 0, 0);
+}
+.inner_title {
+  width: 100%;
+  color: brown;
+  height: 100px;
+  display: block;
+  margin: 2px -103px 22px;
+}
+/* text center of founders tab center */
+.centerf {
+  color: blue;
+  margin: auto;
+  width: 10px;
+  padding: 0px;
+}
+/* center of the video */
+iframe  {
+  position: relative;
+  margin-left: 40%;
+}
+  /* -----------------------------  */
+      /* CSS to put box the form */
+  fieldset {
+    margin: 12em 0;
+    padding:2em;
+    border: dashed 11px rgb(151, 169, 170);} 
+/* put text under emypty box */
+label {
+  display: block;
+  margin-top: 1em;
+  }
+/* Perfect spacing under*/
+label{
+margin-top: 0px;
+}
+  /* -----------------------------  */
+    /* -Founder Page CSS  */
+.founders {
+  margin: 45px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+}
+.founders thead tr {
+   background-color: rgb(57, 60, 219);
+   color:aliceblue;
+   text-align: left;
+   font-weight: bold;
+}
+/* CSS for only first row */
+   .founders tbody tr:nth-last-of-type(even)  {
+       background-color: rgb(158, 161, 172) ;
+   }
+      /* CSS for only first row */
+   .founders tfoot {
+       background-color: rgb(158, 161, 172) ;
+   }      /* -  END Founder Page CSS  */
+
+.big, .centerf {
+  color:brown;
+}
+
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(128,128,128);
+   color: white;
+   text-align: center;
+}
